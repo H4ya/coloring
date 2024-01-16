@@ -1,0 +1,30 @@
+html{
+    background: linear-gradient(to top,rgb(65, 153, 175),rgb(50, 81, 132),rgb(8, 8, 68),rgb(8, 8, 68),rgb(5, 5, 42),rgb(0, 0, 0));
+    backdrop-filter:blur(50px); 
+}  
+/*body{
+    border-width: 25px ;
+    border-style: solid;
+    background-image: linear-gradient(to top,red,blue);
+}*/
+
+div {
+    display: grid;
+    place-items: center;
+}
+
+img {position: relative;
+    width: 65%;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+    transition: 0.6s;
+    filter: grayscale(100%);
+    top:17%
+    
+}
+img:hover {
+    filter: grayscale(0%);
+    box-shadow: 0 0 100px rgb(255, 181, 244)
+
+}
